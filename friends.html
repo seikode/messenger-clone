@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Messenger Clone</title>
+    <title>Friends - Messenger Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -21,20 +21,32 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Messenger Clone</h1>
-      <p class="welcome-header__text">
-        If you have a Messenger Account, log in with your email or phonbe
-        number.
-      </p>
-    </header>
-    <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <input type="submit" value="Sign Up" />
-      <a href="#">Find Messenger Account or Password</a>
-    </form>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-solid fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa-regular fa-comment fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa-solid fa-magnifying-glass fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa-solid fa-ellipsis-vertical fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
     <script
       src="https://kit.fontawesome.com/fd0940ffc6.js"
       crossorigin="anonymous"
