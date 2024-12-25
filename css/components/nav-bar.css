@@ -15,6 +15,7 @@
 
 .nav__link {
   color: #2e363e;
+  position: relative;
 }
 
 .nav__notification {
@@ -25,4 +26,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav__notificationDot {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: flex;
+  position: absolute;
+  left: 10px;
+  bottom: 30px;
 }
